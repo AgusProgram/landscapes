@@ -1,0 +1,187 @@
+body {
+    background-color: #000000;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --white: #f2f2f2;
+}
+
+.text-person {
+ color: #f2f2f2;
+}
+
+header {
+    background-image: url(/img/ocean-863142_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-violet {
+    background-color: rgb(97, 5, 85);
+}
+
+.nav-item.dropdown {
+	margin-left: 7px;
+}
+
+.col-md-6.d-grid {
+	margin-bottom: 1rem;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.7rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+	color: black;
+	background-color: #c699bd;
+}
+
+.countries p {
+    font-size: 19px;
+}
+
+.img-fluid.img_place {
+	border-radius: 3rem;
+	box-shadow: 0px -1px 20px 5px rgba(255,255,255,1);
+}
+
+.bg-blue {
+    background-color: darkblue;
+}
+
+.bg-primary,
+.bg-success,
+.bg-warning,
+.bg-blue,
+.bg-danger {
+    border-radius: 1.5rem;
+}
+
+/* Form  */
+.form-control {
+	background-color: #212529;
+    color: var(--white);
+}
+.form-control::placeholder {
+  color: var(--white);
+	opacity: 1;
+	font-weight: bold;
+	opacity: .8;
+}
+.form-control:focus {
+	color: rgba(242, 242, 242, 0.81);
+	background-color: #212529;
+	border-color: transparent;
+	box-shadow: none;
+	font-size: 1rem;
+}
+
+#formulario {
+    background-image: url(/img/background-form.jpg);
+    padding: 1rem;
+}
+
+.btn-violet {
+background-color:blueviolet;
+color: #fff;
+}
+
+.btn-violet:hover {
+    background-color:rgb(130, 85, 172);
+    color: #fff;
+    }
+
+i {
+    position: relative;
+    top: .5rem;
+}
+
+#derechos {
+    position: relative;
+    top: 3rem;
+}
+
+#spinner {
+    display: none;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+
+.sk-chase {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    animation: sk-chase 2.5s infinite linear both;
+  }
+  
+  .sk-chase-dot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:before {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 25%;
+    background-color: #0288d1;
+    border-radius: 100%;
+    animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }
+  .sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }
+  
+  @keyframes sk-chase {
+    100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot {
+    80%, 100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot-before {
+    50% {
+      transform: scale(0.4); 
+    } 100%, 0% {
+      transform: scale(1.0); 
+    } 
+  }
+
+  @media screen and (max-width:1200px) {
+    .land-item h2 {
+      height: 4rem;
+      padding-top: 0.4rem !important;
+    }
+
+    .land-item p {
+       font-size: 17px;
+    }
+  }
+
+  @media screen and (max-width:769px) {
+    .land-item h2 {
+      height: 4rem;
+      padding-top: 0.7rem !important;
+    }
+  }
